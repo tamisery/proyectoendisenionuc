@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body{
+background-image: url(./alex-brisbey-KGQhWwB0tDg-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+font-family: 'Rock Salt', cursive;
+}    
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cajita1 {
+  align-items: center;
+  justify-content: center;
+} 
+header {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(235, 82, 73, .7), rgba(0, 0, 0, .7)), url(./reci.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  align-self: center;
+}
+h1 {
+  text-align: center;
+}  
+
+.navegacion ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion a {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-weight: 100;
+  padding: 20px 5px;
+  text-decoration: none;
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.navegacion li {
+    flex: 4; 
+}
+.formu {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    align-self: center;
+    flex-direction: column;
+  }  
+.formu h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+  }    
+    
+  
+  
+
+  
+.formu label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+  }
+  
+.formu input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+    
+  }
+  
+.formu input[type="text"], .formu input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+    
+  }
+  
+.formu input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+  
+.formu input[type="submit"]:hover {
+    cursor: pointer;
+    
+    color: #000;
+  }
+  
+.formu a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+.formu a:hover {
+    color: #fff;
+  }
+footer {
+  align-self: left;
+  color: #f4f4f4;
+}  
+
+@media screen and (max-width:768px) {
+  h1 {
+    text-align:unset;
+    }
+  .navegacion ul {
+    display: block;
+    }
+  .formu {
+    display: block;
+    text-align: unset;
+  }  
+}    
